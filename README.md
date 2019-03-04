@@ -1,1 +1,1 @@
-# wild-pets
+# Wild Pets
