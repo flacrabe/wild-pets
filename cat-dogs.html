@@ -4,15 +4,15 @@
 	<meta charset="utf-8">
 	<title>Wild Pets</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="main.css">
 
 </head>
 <body>
 	<div class="container">
 		<!-- nav bar -->
-		<header>
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				<a class="navbar-brand" href="#"><img src="assets/img/logoplein_vert.png" width="100" heigth="50" class="d-inline-block align-top" alt="logo">  Wild Pets</a>
+
+			<nav class="navbar navbar-expand-lg opacity-menu sticky-top navbar-dark brown-back ">
+				<a class="navbar-brand" href="#"><img src="assets/img/logoplein_vert.png" width="75" heigth="37,5" class="d-inline-block align-top" alt="logo">  Wild Pets</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
 				aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -40,11 +40,10 @@
 				</ul>
 			</div>
 		</nav>
-	</header>
 
 	<!--nom categorie-->
 	<div class="card bg-dark text-white">
-		<img src="asset/img/dogs/dog.jpg" class="card-img" alt="dog fur">
+		<img src="assets/img/dogs/dog.jpg" class="card-img" alt="dog fur">
 		<div class="card-img-overlay">
 			<h5 class="card-title">Dogs</h5>
 			<p class="card-text">See our dogs stuff</p>
@@ -52,7 +51,7 @@
 	</div>
 
 	<!-- page article-->
-	<h3>
+	<h3 class="mt-5">
 		Food
 	</h3>
 
@@ -60,71 +59,71 @@
 		<div class="row">
 			<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
 				<div class="card">
-					<img src="asset/img/dogs/croquette.jpeg" class="card-img-top" alt="dog_food">
+					<img src="assets/img/dogs/croquette.jpeg" class="card-img-top" alt="dog_food">
 					<div class="card-body">
 						<h5 class="card-title">Kibble</h5>
 						<p class="card-text">The Best Dog Ever deserves the Best Food Ever. </p>
 						<div class="dropdown pl-3">
-							<button class="btn btn-secondary dropdown-toggle mb-3" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Full description
 								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
+								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton1">
 						<p>That's why Merrick's grain-free recipes provide only the best to your best friend in quality, nutrition and taste. Merrick grain-free recipes start with real deboned meat, fish or poultry as the 1 ingredient for a high protein</p>
 </div>
 </div>
-						<p>56.99 $</p>
+						<p class="text-center">56.99 $</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
 				<div class="card">
-					<img src="asset/img/dogs/treat.jpeg" class="card-img-top" alt="fish_food">
+					<img src="assets/img/dogs/treat.jpeg" class="card-img-top" alt="fish_food">
 					<div class="card-body">
 						<h5 class="card-title">Treat</h5>
 						<p class="card-text">Dogs love the crunchy texture and natural flavors of NUTRO Crunchy Dog Treats. </p>
 						<div class="dropdown pl-3">
-							<button class="btn btn-secondary dropdown-toggle mb-3" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownMenuButton2"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Full description
 							</button>
-							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
+							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton2">
 							<p>These 100% natural dog treats are made with non-GMO ingredients*, containing: NO chicken by-product meal, NO artificial flavors or colors, NO artificial preservatives, NO corn, wheat, or soy protein. </p>
 					</div>
 				</div>
-				<p>15.50 $</p>
+				<p class="text-center">15.50 $</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
 				<div class="card">
-					<img src="asset/img/dogs/poucher.jpeg" class="card-img-top" alt="">
+					<img src="assets/img/dogs/poucher.jpeg" class="card-img-top" alt="">
 					<div class="card-body">
 						<h5 class="card-title">Poucher</h5>
 						<p class="card-text">Our Beef Liver Bark dog treats are made by hand in small batches in our Southern California dog kitchens several times a week. </p>
 						<div class="dropdown pl-3">
-							<button class="btn btn-secondary dropdown-toggle mb-3" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownMenuButton3"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Full description
 							</button>
-							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
+							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton3">
 								<p>There are only three ingredients - beef liver, potato starch, aniseed. They're dense and crunchy and dogs love them to pieces! </p>
 							</div>
 						</div>
-						<p>20 $</p>
+						<p class="text-center">20 $</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
 				<div class="card">
-					<img src="asset/img/dogs/veterinary.jpeg" class="card-img-top" alt="fish_food">
+					<img src="assets/img/dogs/veterinary.jpeg" class="card-img-top" alt="fish_food">
 					<div class="card-body">
 						<h5 class="card-title">Veterinary diet</h5>
 						<p class="card-text">Your dog's digestive health can be negatively affected by many things. </p>
 						<div class="dropdown pl-3">
-							<button class="btn btn-secondary dropdown-toggle mb-3" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownMenuButton4"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Full description
 							</button>
-							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
+							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton4">
 <p>The good news is that you can help your dog feel better with a food that is formulated to provide the digestive care they need. </p>
-						<p>30.50 $</p>
+						<p class="text-center">30.50 $</p>
 					</div>
 				</div>
 					</div>
@@ -133,7 +132,7 @@
 		</div>
 	</div>
 
-	<h3>
+	<h3 class="mt-5">
 		Accessories
 	</h3>
 
@@ -141,87 +140,82 @@
 		<div class="row">
 			<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
 				<div class="card">
-					<img src="asset/img/dogs/toy.jpeg" class="card-img-top" alt="fish_food">
+					<img src="assets/img/dogs/toy.jpeg" class="card-img-top" alt="fish_food">
 					<div class="card-body">
 						<h5 class="card-title">Toy</h5>
 						<p class="card-text">Plush material scrunches around the internal coiled rope...</p>
 						<div class="dropdown pl-3">
-							<button class="btn btn-secondary dropdown-toggle mb-3" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Full description
 							</button>
-							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
+							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton5">
 <p>, while stretchy sides create natural movement to entice play. The internal knots satisfy natural instincts and these toys contain no stuffing for less mess. Squeaks for added enjoyment!</p>
 </div>
 </div>
-						<p>9.25 $</p>
+						<p class="text-center">9.25 $</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
 				<div class="card">
-					<img src="asset/img/dogs/crate.jpeg" class="card-img-top" alt="fish_food">
+					<img src="assets/img/dogs/crate.jpeg" class="card-img-top" alt="fish_food">
 					<div class="card-body">
 						<h5 class="card-title">Travel Crate</h5>
 						<p class="card-text">Safe, secure, and affordable, this crate comes assembled and ready to set-up. </p>
 						<div class="dropdown pl-3">
-							<button class="btn btn-secondary dropdown-toggle mb-3" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownMenuButton6"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Full description
 							</button>
-							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
+							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton6">
 <p>Divider panel and crate training guide are included (divider panel allows you to adjust the size of the crate).</p>
 </div>
 </div>
-						<p>39.99 $</p>
+						<p class="text-center">39.99 $</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
 				<div class="card">
-					<img src="asset/img/dogs/bed.jpeg" class="card-img-top" alt="fish_food">
+					<img src="assets/img/dogs/bed.jpeg" class="card-img-top" alt="fish_food">
 					<div class="card-body">
 						<h5 class="card-title">Dog Bed</h5>
 						<p class="card-text">The Animaze Gray Circle Bolster Dog Bed brings plush comfort in a simple design and neutral colors. </p>
 						<div class="dropdown pl-3">
-							<button class="btn btn-secondary dropdown-toggle mb-3" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownMenuButton7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Full description
 							</button>
-							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
+							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton7">
 <p>For added stability when your pup is ready to jump in for some shuteye, this bolster dog bed includes a non-slip bottom.</p>
-</div>
-</div>
-						<p>49.90 $</p>
+     </div>
+      </div>
+						<p class="text-center">49.90 $</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
 				<div class="card">
-					<img src="asset/img/dogs/leash.jpeg" class="card-img-top" alt="fish_food">
+					<img src="assets/img/dogs/leash.jpeg" class="card-img-top" alt="fish_food">
 					<div class="card-body">
 						<h5 class="card-title">Harness & Leash</h5>
 	<p class="card-text">The Reddy Cerulean Dog Harness uses a bold color combo and reflective band...</p>
 						<div class="dropdown pl-3">
-							<button class="btn btn-secondary dropdown-toggle mb-3" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownMenuButton8"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Full description
 							</button>
-							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-						 <p>details on its front straps to stand out day or night. </p>
-							<div class="dropdown pl-3">
-								<button class="btn btn-secondary dropdown-toggle mb-3" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Full description
-								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-								<p>Durable hardware and a comfy neoprene lining partner together to bring you peace of mind as you guide your pup on daily walks.</p>
+							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton8">
+						 <p>ddetails on its front straps to stand out day or night. Durable hardware and a comfy neoprene lining partner together to bring you peace of mind as you guide your pup on daily walks.</p>
 							</div>
 						</div>
-						<p>8.90 $</p>
+						<p class="text-center">8.90 $</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div>
 
-	<h3>
+
+
+	<h3 class="mt-5">
 		Care & health
 	</h3>
 
@@ -229,74 +223,74 @@
 		<div class="row">
 			<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
 				<div class="card">
-					<img src="asset/img/dogs/flea.jpeg" class="card-img-top" alt="fish_food">
+					<img src="assets/img/dogs/flea.jpeg" class="card-img-top" alt="fish_food">
 					<div class="card-body">
 						<h5 class="card-title">Flea & Tick</h5>
 						<p class="card-text">Longest-lasting, most complete spot-on flea and tick protection available.</p>
 						<div class="dropdown pl-3">
-							<button class="btn btn-secondary dropdown-toggle mb-3" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownMenuButton9" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Full description
 							</button>
-							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
+							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton9">
 							<p>Flea treatment kills 100% of adult fleas on your dog within 24-48 hours</p>
 						</div>
 					</div>
-						<p>37 $</p>
+						<p class="text-center">37 $</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
 				<div class="card">
-					<img src="asset/img/dogs/dental.jpeg" class="card-img-top" alt="fish_food">
+					<img src="assets/img/dogs/dental.jpeg" class="card-img-top" alt="fish_food">
 					<div class="card-body">
 						<h5 class="card-title">Dental care</h5>
 
 						<p class="card-text">The Leaps & Bounds Toss and Tug 5 Knot Rope Tug Dog Toy provides </p>
 						<div class="dropdown pl-3">
-							<button class="btn btn-secondary dropdown-toggle mb-3" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownMenuButton10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Full description
 							</button>
-							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
+							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton10">
 							<p>engaging multi-pet entertainment in vivid color. As they chew and pull during playtime, its fibers provide a stimulating way to gently massage teeth and gums.</p>
 						</div>
 					</div>
-						<p>7.99 $</p>
+						<p class="text-center">7.99 $</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
 				<div class="card">
-					<img src="asset/img/dogs/wellness.jpeg" class="card-img-top" alt="fish_food">
+					<img src="assets/img/dogs/wellness.jpeg" class="card-img-top" alt="fish_food">
 					<div class="card-body">
 						<h5 class="card-title">Health & wellness</h5>
 						<p class="card-text">Espree Paw Balm. All natural formula. </p>
 						<div class="dropdown pl-3">
-							<button class="btn btn-secondary dropdown-toggle mb-3" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownMenuButton11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Full description
 							</button>
-							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
+							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton11">
 <p>Conditions and protects paws and elbow joints. Restores moisture & softens. Prevents slippage</p>
 </div>
 </div>
-						<p>5.99 $</p>
+						<p class="text-center">5.99 $</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
 				<div class="card">
-					<img src="asset/img/dogs/poop.jpeg" class="card-img-top" alt="fish_food">
+					<img src="assets/img/dogs/poop.jpeg" class="card-img-top" alt="fish_food">
 					<div class="card-body">
 						<h5 class="card-title">Poop bags</h5>
 						<p class="card-text">The Dog Waste Bag Dispenser with Refill Rolls make sure you don't...</p>
 						<div class="dropdown pl-3">
-							<button class="btn btn-secondary dropdown-toggle mb-3" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn btn-secondary dropdown-toggle mb-3" type="button" id="dropdownMenuButton12"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Full description
 							</button>
-							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
+							<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton12">
 <p> miss a beat on your daily walks by keeping you stocked and ready for your daily walks. A reflective sticker offers added visibility while a carabiner allows you to attach this dispenser wherever you need to keep dog poop bags handy.</p>
 </div>
 </div>
-					<p>4.99 $</p>
+					<p class="text-center">4.99 $</p>
 					</div>
 				</div>
 			</div>
@@ -308,7 +302,7 @@
 
 	<footer>
 
-		<div class="bg-dark text-white mt-3">
+		<div class="brown-back text-white mt-3">
 			<div class="row">
 				<div class="col-md-4 pt-3">
 					<p class="ml-4"><a href="#" class="text-white">Home</a></p>
@@ -318,10 +312,10 @@
 					<p class="ml-4"><a href="#legal-mentions" class="text-white">Legal mentions</a></p>
 				</div>
 				<div class="col-md-4">
-					<div class="card mb-3 bg-dark border-0" style="max-width: 540px;">
+					<div class="card mb-3 brown-back border-0" style="max-width: 540px;">
 						<div class="row no-gutters">
 							<div class="col-md-4">
-								<img src="assets/img/logo.png" class="card-img img-fluid" alt="Logo">
+								<img src="assets/img/logoplein_vert.png" class="card-img img-fluid" alt="Logo">
 							</div>
 							<div class="col-md-8">
 								<div class="card-body mt-3 pl-3">
