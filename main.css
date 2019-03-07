@@ -20,6 +20,7 @@
 	background-color: #F48D33;
 }
 
+
 /* fonts */
 
 .white-font {
@@ -35,3 +36,32 @@
 .opacity-menu {
 	opacity: 0.8;
 }
+
+.card1 {
+	box-shadow: 6px 3px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card1:hover {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.container, .container-fluid {
+    font-family: 'Neucha', cursive;
+}
+.navbar , h2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.nav-link:hover {
+	color: #A5CE00;
+}
+
+.titre-color-blue {
+	color: #346A90;
+}
+
+.logo-wild {
+	font-size: 1.3em;
+}
+

@@ -8,41 +8,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister%7CNeucha" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
 </head>
 
 <body>
 
-    <div class="container">
+    <div class="container-fluid">
 
         <!-- Navbar -->
-
-        <nav class="navbar navbar-expand-lg sticky-top navbar-dark blue-back opacity-menu white-font bold-font">
+        <nav class="navbar navbar-expand-lg sticky-top blue-back opacity-menu">
             <a class="navbar-brand" href="#"><img src="assets/img/logoplein_vert.png" width="75" height="37.5" class="d-inline-block align-top"
-                    alt="logo"><span class="logo-wild offset-1">Wild Pets</span></a>
+                    alt="logo"><span class="logo-wild offset-1 white-font bold-font">Wild
+                    Pets</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item white-font bold-font">
-                        <a class="nav-link" href="#">Dogs</a>
+                    <li class="nav-item">
+                        <a class="nav-link white-font bold-font" href="#categories">Categories</a>
                     </li>
-                    <li class="nav-item white-font bold-font">
-                        <a class="nav-link" href="#">Cats</a>
+                    <li class="nav-item">
+                        <a class="nav-link white-font bold-font" href="#about-us">About us</a>
                     </li>
-                    <li class="nav-item white-font bold-font">
-                        <a class="nav-link" href="#">Rodents</a>
+                    <li class="nav-item">
+                        <a class="nav-link white-font bold-font" href="#top-selling">Top selling</a>
                     </li>
-                    <li class="nav-item white-font bold-font">
-                        <a class="nav-link" href="#">Fishes</a>
-                    </li>
-                    <li class="nav-item white-font bold-font">
-                        <a class="nav-link" href="#">Reptiles</a>
-                    </li>
-                    <li class="nav-item white-font bold-font">
-                        <a class="nav-link" href="#">Contact us</a>
+                    <li class="nav-item">
+                        <a class="nav-link white-font bold-font" href="contact.html">Contact us</a>
                     </li>
                 </ul>
             </div>
@@ -51,200 +46,205 @@
 
         <!-- Carousel -->
 
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/carousel_party.jpg" class="d-block w-100" alt="photo">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>An incoming birthday ?</h5>
+                            <p>Wholesale on balloons and pointed hats</p>
+                            <p>‘Til Friday the 28th</p>
 
-                <!-- Carousel -->
-
-
-                <div class="bd-example">
-                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/img/carousel_party.jpg" class="d-block w-100" alt="photo">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>An incoming birthday ?</h5>
-                                    <p>Wholesale on balloons and pointed hats</p>
-                                    <p>‘Til Friday the 28th</p>
-        
-                                </div>
-                            </div>
-                            <div class="carousel-item ">
-                                <img src="assets/img/carousel_hamster.jpg" class="d-block w-100" alt="photo">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Your hamster is bored ?</h5>
-                                    <p>10 % on all wheels with code</p>
-                                    <p>BOREDRODENT</p>
-        
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/img/carousel_cat.jpg"
-                                    class="d-block w-100" alt="photo">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>You just get a new Coach ?</h5>
-                                    <p>brand new cat trees available</p>
-                                </div>
-                            </div>
                         </div>
-        
-                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-        
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="assets/img/carousel_hamster.jpg" class="d-block w-100" alt="photo">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Your guinea pig is bored ?</h5>
+                            <p>10 % on all wheels with code</p>
+                            <p>BOREDRODENT</p>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel_cat.jpg" class="d-block w-100" alt="photo">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>You just get a new Coach ?</h5>
+                            <p>brand new cat trees available</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+
+
+            <!-- Card-decks -->
+
+            <section id="categories" class="mt-5">
+
+                <div class="container">
+
+                    <h2 class="text-center titre-color-blue">Categories</h2>
+                    <div class="row mx-auto">
+                        <div class="card col-lg-4 col-md-6 col-sm-10 mx-auto my-3 border-0">
+                            <a href="cat-dogs.html"><img src="assets/img/cat-dogs.png" alt="categorie" class="img-thumbnail border-0"></a>
+                            <h3 class="text-center">Dogs</h3>
+                        </div>
+                        <div class="card col-lg-4 col-md-6 col-sm-10 mx-auto my-3 border-0">
+                            <a href="cat-cats.html"><img src="assets/img/cat-cats.png" alt="categorie" class="img-thumbnail border-0"></a>
+                            <h3 class="text-center">Cats</h3>
+                        </div>
+                        <div class="card col-lg-4 col-md-6 col-sm-10 mx-auto my-3 border-0">
+                            <a href="cat-rodents.html"><img src="assets/img/cat-rabbit.png" alt="categorie" class="img-thumbnail border-0"></a>
+                            <h3 class="text-center">Rodents</h3>
+                        </div>
+                        <div class="card col-lg-4 col-md-6 col-sm-10 mx-auto my-3 border-0">
+                            <a href="cat-fishes.html"><img src="assets/img/cat-fish.png" alt="categorie" class="img-thumbnail border-0"></a>
+                            <h3 class="text-center">Fishes</h3>
+                        </div>
+                        <div class="card col-lg-4 col-md-6 col-sm-10 mx-auto my-3 border-0">
+                            <a href="cat-reptiles.html"><img src="assets/img/cat-reptiles.png" alt="categorie" class="img-thumbnail border-0"></a>
+                            <h3 class="text-center">Reptiles</h3>
+                        </div>
                     </div>
 
+                </div>
 
-        <!-- Card-decks -->
+            </section>
 
 
-        <h2 class="text-center">Categories</h2>
-        <div class="row mx-auto">
-            <div class="card col-lg-4 col-md-6 col-sm-10 mx-auto my-3 border-0">
-                <img src="assets/img/cat-dogs.png" alt="categorie" class="img-thumbnail border-0">
-                <h3 class="text-center">Dogs</h3>
-            </div>
-            <div class="card col-lg-4 col-md-6 col-sm-10 mx-auto my-3 border-0">
-                <img src="assets/img/cat-cats.png" alt="categorie" class="img-thumbnail border-0">
-                <h3 class="text-center">Cats</h3>
-            </div>
-            <div class="card col-lg-4 col-md-6 col-sm-10 mx-auto my-3 border-0">
-                <img src="assets/img/cat-rabbit.png" alt="categorie" class="img-thumbnail border-0">
-                <h3 class="text-center">Rodents</h3>
-            </div>
-            <div class="card col-lg-4 col-md-6 col-sm-10 mx-auto my-3 border-0">
-                <img src="assets/img/cat-fish.png" alt="categorie" class="img-thumbnail border-0">
-                <h3 class="text-center">Fishes</h3>
-            </div>
-            <div class="card col-lg-4 col-md-6 col-sm-10 mx-auto my-3 border-0">
-                <img src="assets/img/cat-reptiles.png" alt="categorie" class="img-thumbnail border-0">
-                <h3 class="text-center">Reptiles</h3>
-            </div>
-            <!-- <div class="card col-lg-4 col-md-6 col-sm-10 mx-auto my-3">
-            <img src="https://vignette.wikia.nocookie.net/paradisebay/images/a/a0/Piggy.png/revision/latest?cb=20171123145356&path-prefix=fr"
-                alt="categorie" class="img-thumbnail">
-            <h3>categorie 6</h3>
-        </div> -->
-        </div>
+            <!-- About us -->
+            <section id="about-us" class="mt-5 blue-back">
 
-        <!-- About us -->
+                <div class="container">
 
-        <div id="about-us" class="row">
-            <h2 class="col-12 text-center"">About us</h2>
-    </div>
-    <div class=" card">
-                <div class="card-body">
                     <div class="row">
-                        <img src="assets/img/about_us.jpg" class="img-fluid ml-2" alt="about_us">
-                        <div class="col">
-                            <p class="card-text">Since early 2019, WildPets is a family based company with your animal
-                                wellbeing at
-                                heart. All our accessories are the main concern of our department managers specialised
-                                by
-                                spicies.
-                                We propose you over 8000 product tested by our pets. All our employees are pet lovers
-                                and
-                                will be
-                                careful to all your demands. We work with best accessories brand and test our products
-                                on
-                                our
-                                friends at home.</p>
-                        </div>
+                        <h2 class="col-12 text-center text-white mt-5">About us</h2>
                     </div>
-                </div>
-        </div>
-        <!-- Top-selling -->
-        <h2 class="col-12 text-center">Top selling</h2>
-        <p class="col-12 text-center">Isdem diebus Apollinaris Domitiani gener, paulo ante agens palatii Caesaris curam</p>
-        <div id="top-selling" class="card-deck justify-content-around">
-            <div class="row mx-auto col-12">
-                <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product 1</h5>
-                        <p class="card-text">Best product ever</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product 2</h5>
-                        <p class="card-text">Amazing</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://via.placeholder.com/100" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Product 3</h5>
-                        <p class="card-text">Also very good product.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer -->
-
-        <footer>
-
-            <div class="bg-dark text-white mt-5 blue-back opacity-menu">
-
-                <div class="row">
-
-                    <div class="col-md-4 pt-3">
-                        <p class="ml-4"><a href="#" class="text-white">Home</a></p>
-                        <p class="ml-4"><a href="#about-us" class="text-white">About us</a></p>
-                        <p class="ml-4"><a href="#top-selling" class="text-white">Top Selling</a></p>
-                        <p class="ml-4"><a href="#contact" class="text-white">Contact</a></p>
-                        <p class="ml-4"><a href="#legal-mentions" class="text-white">Legal mentions</a></p>
-                    </div>
-
-                    <div class="col-md-4 pt-3">
-                        <div class="card mb-3 bg-dark border-0">
-                            <div class="row no-gutters">
-                                <div class="col-md-12 my-auto">
-                                    <img src="assets/img/logoplein_vert.png" class="card-img img-fluid" alt="Logo">
-                                </div>
-                                <!-- <div class="col-md-12">
-                                    <div class="card-body mt-2 pl-3">
-                                        <h2 class="card-title text-nowrap text-left pl-0">Wild Pets</h2>
-                                        <p class="card-text text-left ml-1">1, rue de la paix<br>69002</p>
+                    <div class="card border-0 blue-back text-white">
+                            <div class="card-body">
+                                <div class="row">
+                                    <img src="assets/img/about_us.jpg" class="img-fluid ml-2" alt="about_us">
+                                    <div class="col">
+                                        <p class="card-text">Since early 2019, WildPets is a family based company with
+                                            your animalwellbeing at
+                                            heart. All our accessories are the main concern of our department managers
+                                            specialised byspicies.We propose you over 8000 product tested by our pets.
+                                            All our employees are pet lovers will be careful to all your demands. We
+                                            work with best accessories brand and test our products on our friends at
+                                            home.</p>
                                     </div>
-                                </div> -->
+                                </div>
+                            </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Top-selling -->
+
+            <section id="top-sellig">
+
+                <div class="container">
+
+                    <h2 class="col-12 text-center mt-5 titre-color-blue">Top selling</h2>
+                    <p class="col-12 text-center mt-2 titre-color-blue">Isdem diebus Apollinaris Domitiani gener, paulo ante agens palatii
+                        Caesaris
+                        curam</p>
+                    <div id="top-selling" class="card-deck justify-content-around">
+                        <div class="row mx-auto col-12 text-center mb-5">
+                            <div class="card card1">
+                                <img src="assets/img/cat/litterbox.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title titre-color-blue">So Phresh</h5>
+                                    <p class="card-text titre-color-blue">Best product ever</p>
+                                </div>
+                            </div>
+                            <div class="card card1">
+                                <img src="assets/img/rodents/accessories2.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title titre-color-blue">Crinkle Tunnel Striped</h5>
+                                    <p class="card-text titre-color-blue">Amazing</p>
+                                </div>
+                            </div>
+                            <div class="card card1">
+                                <img src="assets/img/dogs/croquette.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title titre-color-blue">Kibble</h5>
+                                    <p class="card-tex titre-color-blue">Also very good product.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
 
-                    <div class="col-md-4 pt-3">
-                        <p class="text-right mr-4"><a href="#category1" class="text-white">Dogs</a></p>
-                        <p class="text-right mr-4"><a href="#category2" class="text-white">Cats</a></p>
-                        <p class="text-right mr-4"><a href="#category3" class="text-white">Rodents</a></p>
-                        <p class="text-right mr-4"><a href="#category4" class="text-white">Fishes</a></p>
-                        <p class="text-right mr-4"><a href="#category5" class="text-white">Reptiles</a></p>
+
+            <!-- Footer -->
+
+            <footer id="footer">
+
+                <div class="text-white mt-5 blue-back opacity-menu">
+
+                    <div class="row">
+
+                        <div class="col-md-4 pt-3">
+                            <p class="ml-4"><a href="#" class="text-white">Home</a></p>
+                            <p class="ml-4"><a href="#about-us" class="text-white">About us</a></p>
+                            <p class="ml-4"><a href="#top-selling" class="text-white">Top Selling</a></p>
+                            <p class="ml-4"><a href="#contact" class="text-white">Contact</a></p>
+                            <p class="ml-4"><a href="#legal-mentions" class="text-white">Legal mentions</a></p>
+                        </div>
+
+                        <div class="col-md-4 pt-3">
+                            <div class="card mb-3 blue-back border-0">
+                                <div class="row no-gutters">
+                                    <div class="col-md-12 my-auto">
+                                        <img src="assets/img/logoplein_vert.png" class="card-img img-fluid" alt="Logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 pt-3">
+                            <p class="text-right mr-4"><a href="#category1" class="text-white">Dogs</a></p>
+                            <p class="text-right mr-4"><a href="#category2" class="text-white">Cats</a></p>
+                            <p class="text-right mr-4"><a href="#category3" class="text-white">Rodents</a></p>
+                            <p class="text-right mr-4"><a href="#category4" class="text-white">Fishes</a></p>
+                            <p class="text-right mr-4"><a href="#category5" class="text-white">Reptiles</a></p>
+                        </div>
+
                     </div>
 
                 </div>
 
-            </div>
+            </footer>
 
-        </footer>
+        </div>
 
-    </div>
-
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 
 </body>
 
