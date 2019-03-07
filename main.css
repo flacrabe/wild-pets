@@ -65,3 +65,30 @@
 	font-size: 1.3em;
 }
 
+.promo{
+	font-size: 2.500em;
+	color: black;
+}
+
+h3{
+	color: black;
+
+	font-size: 3.125em;
+}
+
+/* margin top entre categories */
+
+.margin{
+	margin-top: 250px;
+}
+
+/* margin entre image et nom categorie */
+
+.margin-cate{
+	margin-top: 25px;
+}
+
+/* effet grossissant categorie */
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
