@@ -1,9 +1,42 @@
-/* Colors */
+/* back-colors */
 
+.green-back {
+	background-color: #A5CE00;
+}
 
+.brown-back {
+	background-color: #BC7D3A;
+}
+
+.blue-back {
+	background-color: #738290;
+}
+
+.pink-back {
+	background-color: #E6B797;
+}
+
+.orange-back {
+	background-color: #F48D33;
+}
+
+/* fonts */
+
+.white-font {
+	color: white;
+}
+
+.bold-font {
+	font-weight: bold;
+}
 
 /* Opacity */
 
-.dropdown-menu {
-	opacity: .8;
+.opacity-menu {
+	opacity: 0.8;
 }
+
+
+/* .dropdown-menu {
+	opacity: .8;
+} */
