@@ -31,6 +31,10 @@
 	font-weight: bold;
 }
 
+.blue-font {
+	color: #346A90;
+}
+
 /* Opacity */
 
 .opacity-menu {
@@ -126,27 +130,17 @@ h3{
 
 #footer-cat {
 	margin-top: 8em;
-	line-height: 2;
-	font-size: 1.5em;
 }
 
 .card-title-cat {
 	font-size: calc(1rem + 4vw);
 	font-weight: bold;
-	color: whitek;
+	color: white;
 	text-shadow: 2px 2px 2px black;
 	opacity: 0.8;
-	
+
 }
 
-.card-text-cat {
-	font-size: calc(1rem + 3vw);;
-	font-weight: bold;
-	color: white;
-	text-shadow: 3px 3px 2px black;
-	margin-top: 2.5em;
-	opacity: 0.8;
-}
 
 .price {
 	font-weight: bold;
@@ -154,4 +148,81 @@ h3{
 
 .link-cat:hover {
 	color: #346A90 !important;
+}
+
+/* CAT-FISHES */
+
+.text-fish {
+	color: #346A90;
+	text-shadow: 1px 2px 2px black;
+	height: 1em;
+	font-size: 5em;
+	padding: 0.8em 0 1.4em 0;
+}
+
+
+.blue-back-menu {
+	background-color: #346A90;
+	opacity: 0.8;
+}
+
+.card-title-fish {
+	font-size: calc(1rem + 4vw);
+	font-weight: bold;
+	color: whitek;
+	text-shadow: 2px 2px 2px black;
+	opacity: 0.8;
+
+}
+.link-fish:hover {
+	color: #F48D33 !important;
+}
+
+/* CAT-REPTILES */
+
+.text-cat-rep {
+	color:  #A5CE00;
+	text-shadow: 1px 2px 2px black;
+	height: 1em;
+	font-size: 5em;
+	padding: 0.8em 0 1.4em 0;
+}
+
+
+.blue-back-menu {
+	color: #F48D33;
+	opacity: 0.8;
+}
+
+.card-title-rep {
+	padding-top: 18%;
+	font-size: calc(1rem + 4vw);
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	opacity: 0.8;
+
+}
+.link-cat-rep:hover {
+	color: #F48D33 !important;
+}
+
+
+
+/* CAT DOG*/
+.text-dog {
+	color: #A5CE00;
+	text-shadow: 1px 2px 2px black;
+	height: 1em;
+	font-size: 5em;
+	padding: 0.8em 0 1.4em 0;
+}
+
+#footer-dog {
+	margin-top: 8em;
+}
+
+.green-back-menu {
+	background-color: #A5CE00;
+	opacity: 0.8;
 }

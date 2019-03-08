@@ -9,419 +9,438 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister%7CNeucha" rel="stylesheet">
 	<link rel="stylesheet" href="main.css">
-
 </head>
 
 <body>
-	<div class="container">
+	<div class="container-fluid px-0">
 		<!-- nav bar -->
-		<header>
-			<nav class="navbar navbar-expand-lg navbar-light green-back">
-				<a class="navbar-brand" href="index.html"><img src="assets/img/logoplein_orange.png" width="75"
-						height="37.5" class="d-inline-block align-top" alt="logo"> Wild Pets</a>
+		<nav class="navbar navbar-expand-lg navbar-light sticky-top green-back opacity-menu">
+			<a class="navbar-brand" href="index.html"><img src="assets/img/logoplein_orange.png" width="75"
+					height="37.5" class="d-inline-block align-top" alt="logo"><span
+					class="logo-wild offset-1 white-font bold-font"> Wild Pets</span></a>
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="cat-dogs.html">Dogs</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="cat-cats.html">Cats</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="cat-rodents.html">Rodents</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="cat-fishes.html">Fishes</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="cat-reptiles.html">Reptiles</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contact.html">Contact us</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</header>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link bold-font link-cat-rep" href="cat-dogs.html">Dogs</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link bold-font link-cat-rep" href="cat-cats.html">Cats</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link bold-font link-cat-rep" href="cat-rodents.html">Rodents</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link bold-font link-cat-rep" href="cat-fishes.html">Fishes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link bold-font link-cat-rep" href="cat-reptiles.html">Reptiles</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link bold-font link-cat-rep" href="contact.html">Contact us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
 		<!--nom categorie-->
 		<div class="card bg-dark text-white">
 			<img src="https://image.noelshack.com/fichiers/2019/10/3/1551883499-mirror-2084665-1920.jpg"
 				class="card-img" alt="reptile_swaggy">
 			<div class="card-img-overlay">
-				<h5 class="card-title">Reptiles</h5>
-				<p class="card-text">See our Reptiles stuff</p>
+				<h1 class="card-title card-title-rep text-center d-none d-md-block">Reptiles</h1>
 			</div>
 		</div>
 
-		<!-- page article-->
-		<h2 class="mb-4 text-center titre-color-blue">
-			Food
-		</h2>
+		<div class="container">
+			<!-- page article-->
+			<h2 class="mb-4 text-center text-cat-rep">
+				Food
+			</h2>
 
-		<div class="card-deck">
-			<div class="row">
-				<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
-					<div class="card">
-						<img src="https://s7d1.scene7.com/is/image/PETCO/2116921-center-1?$ProductDetail-large$"
-							class="card-img-top" alt="reptile_food">
-						<div class="card-body">
-							<h5 class="card-title">Repashy Super Foods Crested Gecko Meal Replacement Powder, 3 oz.</h5>
-							<p class="card-text">An all-in-one super food ...</p>
-							<div class="dropdown pl-3">
-								<button class="btn btn-secondary dropdown-toggle mb-3 green-back" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Full description
-								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-									<p> An all-in-one super food this meal replacement powder is for all
-										fruit-eating geckos, such as Rhacodactylus, Phelsuma and Gekko. Also a great
-										supplement
-										for other species such as Anoles, Skinks, Chameleons, & Iguanids</p>
-								</div>
-							</div>
-							<p>11 $</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
-					<div class="card">
-						<img src="https://s7d1.scene7.com/is/image/PETCO/1441990-center-1?$ProductDetail-large$"
-							class="card-img-top" alt="reptile_food">
-						<div class="card-body">
-							<h5 class="card-title">Fluker's Medley Treat for Bearded Dragons, 1.8 oz.</h5>
-							<p class="card-text">1.8 oz. This medley treat is an ideal blend ...</p>
-							<div class="dropdown pl-3">
-								<button class="btn btn-secondary dropdown-toggle mb-3 green-back" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Full description
-								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-									<p>1.8 oz. This medley treat is an ideal blend of freeze-dried mealworms,
-										grasshoppers & crickets (all natural foods of beardeds). This ensures your
-										dragon will
-										accept and love this treat. Vitamin enriched formula. Complete balanced
-										nutrition.</p>
-								</div>
-							</div>
-							<p>9 $</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
-					<div class="card">
-						<img src="https://s7d1.scene7.com/is/image/PETCO/1442007-center-1?$ProductDetail-large$"
-							class="card-img-top" alt="reptile_food">
-						<div class="card-body">
-							<h5 class="card-title">Fluker's Medley Treat for Aquatic Turtles, 1.5 oz.</h5>
-							<p class="card-text">1.5 oz. This medley treat is an ideal blend ...</p>
-							<div class="dropdown pl-3">
-								<button class="btn btn-secondary dropdown-toggle mb-3 green-back" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Full description
-								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-									<p>1.5 oz. This medley treat is an ideal blend of freeze-dried river
-										shrimp, mealworms & crickets (all natural foods of turtles). This ensures your
-										turtle
-										will accept and love this treat. Vitamin enriched formula. For juvenile & adult
-										aquatic turtles.</p>
-								</div>
-							</div>
-							<p>8 $</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
-					<div class="card">
-						<img src="https://s7d1.scene7.com/is/image/PETCO/2237167-center-1?$ProductDetail-large$"
-							class="card-img-top" alt="reptile_food">
-						<div class="card-body">
-							<h5 class="card-title">Fluker's High-Calcium Cricket Diet, 11.5 oz.</h5>
-							<p class="card-text">Designed for gut-loading crickets ...</p>
-							<div class="dropdown pl-3">
-								<button class="btn btn-secondary dropdown-toggle mb-3 green-back" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Full description
-								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-									<p>Designed for gut-loading crickets to increase their vitamin/mineral
-										content prior to offering them as prey to your pet. Allows insect-eating pets to
-										benefit
-										from the insect's nutrient-rich gut content.</p>
-								</div>
-							</div>
-							<p>4 $</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<h2 class="mb-4 text-center titre-color-blue">
-			Accessories
-		</h2>
-
-		<div class="card-deck">
-			<div class="row">
-				<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
-					<div class="card">
-						<img src="https://petco.scene7.com/is/image/PETCO/2874131-center-1?$ProductDetail-large$"
-							class="card-img-top" alt="reptile_Accessorie">
-						<div class="card-body">
-							<h5 class="card-title">R&J Enterprises Tiki Hut Tank House, 20.75" L X 12" W X 15" H
-							</h5>
-							<p class="card-text">Stylish waterproof Tank House for 10 Gallon Aquariums ... </p>
-							<div class="dropdown pl-3">
-								<button class="btn btn-secondary dropdown-toggle mb-3 green-back" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Full description
-								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-									<p>Stylish waterproof Tank House for 10 Gallon Aquariums Perfect for Fish, Turtles,
-										Mice, Hamsters, snakes, reptiles and much more.</p>
-								</div>
-							</div>
-							<p>22 $</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
-					<div class="card">
-						<img src="https://petco.scene7.com/is/image/PETCO/2874140-center-1?$ProductDetail-large$"
-							class="card-img-top" alt="reptile_Accessorie">
-						<div class="card-body">
-							<h5 class="card-title">R&J Enterprises Barn Tank House, 20.75" L X 12" W X 15" H</h5>
-							<p class="card-text">Stylish waterproof Tank House cover your pet will enjoy...</p>
-							<div class="dropdown pl-3">
-								<button class="btn btn-secondary dropdown-toggle mb-3 green-back" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Full description
-								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-									<p> Stylish waterproof Tank House cover your pet will enjoy
-										It is waterproof and accommodates lighting and filtration. Turning your boring
-										10 gallon
-										tanks into a house for any pet</p>
-								</div>
-							</div>
-							<p>22 $</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
-					<div class="card">
-						<img src="https://s7d1.scene7.com/is/image/PETCO/1022750-center-1?$ProductDetail-large$"
-							class="card-img-top" alt="reptile_Accessorie">
-						<div class="card-body">
-							<h5 class="card-title">Zoo Med Starter Hermit Crab Kit</h5>
-							<p class="card-text">Includes: Sand, water dish, sponge, food, soil, shell, ...
-							</p>
-							<div class="dropdown pl-3">
-								<button class="btn btn-secondary dropdown-toggle mb-3 green-back" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Full description
-								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-									<p> Includes: Sand, water dish, sponge, food, soil, shell,
-										thermometer, hermit crab care guide, salt and drinking water conditioners, and
-										antiseptic
-										hand gel.</p>
-								</div>
-							</div>
-							<p>19 $</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
-					<div class="card">
-						<img src="https://s7d1.scene7.com/is/image/PETCO/1397770-center-1?$ProductDetail-large$"
-							class="card-img-top" alt="reptile_Accessorie">
-						<div class="card-body">
-							<h5 class="card-title">Zoo Med Deluxe Collapsible Snake Hook</h5>
-							<p class="card-text">Up to 26"; Length, Zoo Med Deluxe Collapsible Snake Hook ...</p>
-							<div class="dropdown pl-3">
-								<button class="btn btn-secondary dropdown-toggle mb-3 green-back" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Full description
-								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-									<p> Up to 26"; Length, Zoo Med Deluxe Collapsible Snake Hook
-										is adjustable from 7.25";. Ideal for moving small snakes or collecting snakes in
-										the wild. Can be
-										used to move cage furniture in your terrarium. Fits in pocket when collapsed.
-									</p>
-								</div>
-							</div>
-							<p>4.5 $</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<h2 class="mb-4 text-center titre-color-blue">
-			Hygiene and care
-		</h2>
-
-		<div class="card-deck">
-			<div class="row">
-				<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
-					<div class="card">
-						<img src="https://s7d1.scene7.com/is/image/PETCO/2119013-center-1?$ProductDetail-large$"
-							class="card-img-top" alt="reptile_care">
-						<div class="card-body">
-							<h5 class="card-title">Repashy Super Foods Calcium Plus Supplement, 3 oz.</h5>
-							<p class="card-text">"all-in-one" insect dusting powder that provides essential
-								vitamins, ...</p>
-							<div class="dropdown pl-3">
-								<button class="btn btn-secondary dropdown-toggle mb-3 green-back" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Full description
-								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-									<p>"all-in-one" insect dusting powder that provides essential
-										vitamins, minerals, & trace elements. Both retinol & carotenoids as sources of
-										Vitamin A.
-										Increases the nutritional value of insects as they are fed to all insectivores.
-									</p>
-								</div>
-							</div>
-							<p>12 $</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
-					<div class="card">
-						<img src="https://s7d1.scene7.com/is/image/PETCO/1440349-center-1?$ProductDetail-large$"
-							class="card-img-top" alt="reptile_care">
-						<div class="card-body">
-							<h5 class="card-title">Zoo Med Repti Calcium with D3 Reptile Supplement</h5>
-							<p class="card-text">3 oz. Repti Calcium is an ultra fine Precipitated ...</p>
-							<div class="dropdown pl-3">
-								<button class="btn btn-secondary dropdown-toggle mb-3 green-back" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Full description
-								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-									<p>3 oz. Repti Calcium is an ultra fine Precipitated Calcium Carbonate Supplement
-										with Vitamin D3. It is a phosphorus-free calcium
-										supplement for reptiles
-										and amphibians.
-									</p>
-								</div>
-							</div>
-							<p>6 $</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
-					<div class="card">
-						<img src="https://s7d1.scene7.com/is/image/PETCO/2465944-center-1?$ProductDetail-large$"
-							class="card-img-top" alt="reptile_care">
-						<div class="card-body">
-							<h5 class="card-title">Nature Zone Turtle & Tortoise Shell Saver, 2oz</h5>
-							<p class="card-text">Nature Zone Tortoise & Turtle Shell Saver is a rich, deep-
-								moisturizing ...</p>
-							<div class="dropdown pl-3">
-								<button class="btn btn-secondary dropdown-toggle mb-3 green-back" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Full description
-								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-									<p>Nature Zone Tortoise & Turtle Shell Saver is a rich, deep-
-										moisturizingtreatment for chelonian shells. Regular use will help maintain
-										strong, yet
-										flexible
-										shells on your tortoise or turtle. Shells instantly absorb its rich, creamy
-										formula
-										without any sticky, greasy residue.
-									</p>
-								</div>
-							</div>
-							<p>4 $</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
-					<div class="card">
-						<img src="https://s7d1.scene7.com/is/image/PETCO/93475-center-1?$ProductDetail-large$"
-							class="card-img-top" alt="reptile_care">
-						<div class="card-body">
-							<h5 class="card-title">Tetra TetraFauna Reptocal Reptile Supplement</h5>
-							<p class="card-text">2.12 oz. Easy-to-use, scientifically-formulated calcium ...</p>
-							<div class="dropdown pl-3">
-								<button class="btn btn-secondary dropdown-toggle mb-3 green-back" type="button"
-									id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-									aria-expanded="false">
-									Full description
-								</button>
-								<div class="dropdown-menu p-3 bg-dark text-white" aria-labelledby="dropdownMenuButton">
-									<p>2.12 oz. Easy-to-use, scientifically-formulated calcium supplement for skeletal
-										growth and the prevention of osteoporosis. Safe for daily use.
-									</p>
-								</div>
-							</div>
-							<p>3 $</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<!-- footer-->
-
-		<footer class="green">
-
-			<div class="green-back text-white mt-3 ">
+			<div class="card-deck card-img-cat">
 				<div class="row">
-					<div class="col-md-4 pt-3">
-						<p class="ml-4"><a href="#" class="text-white">Home</a></p>
-						<p class="ml-4"><a href="#about-us" class="text-white">About us</a></p>
-						<p class="ml-4"><a href="#top-selling" class="text-white">Top Selling</a></p>
-						<p class="ml-4"><a href="#contact" class="text-white">Contact</a></p>
-						<p class="ml-4"><a href="#legal-mentions" class="text-white">Legal mentions</a></p>
+					<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
+						<div class="card border-0">
+							<img src="https://s7d1.scene7.com/is/image/PETCO/2116921-center-1?$ProductDetail-large$"
+								class="card-img-top pt-2" alt="reptile_food">
+							<div class="card-body">
+								<h5 class="card-title">Repashy Super Foods Crested Gecko Meal Replacement Powder, 3 oz.
+								</h5>
+								<p class="card-text">An all-in-one super food ...</p>
+								<div class="dropdown pl-3">
+									<button class="btn green-back dropdown-toggle mb-3 green-back text-white"
+										type="button" id="dropdownMenuButton" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Full description
+									</button>
+									<div class="dropdown-menu p-3 green-back text-white"
+										aria-labelledby="dropdownMenuButton">
+										<p> An all-in-one super food this meal replacement powder is for all
+											fruit-eating geckos, such as Rhacodactylus, Phelsuma and Gekko. Also a great
+											supplement
+											for other species such as Anoles, Skinks, Chameleons, & Iguanids</p>
+									</div>
+								</div>
+								<p class="text-center price">$11</p>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-4 pt-3">
+
+					<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
+						<div class="card border-0">
+							<img src="https://s7d1.scene7.com/is/image/PETCO/1441990-center-1?$ProductDetail-large$"
+								class="card-img-top pt-2" alt="reptile_food">
+							<div class="card-body">
+								<h5 class="card-title">Fluker's Medley Treat for Bearded Dragons, 1.8 oz.</h5>
+								<p class="card-text">1.8 oz. This medley treat is an ideal blend ...</p>
+								<div class="dropdown pl-3">
+									<button class="btn green-back dropdown-toggle mb-3 green-back text-white"
+										type="button" id="dropdownMenuButton" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Full description
+									</button>
+									<div class="dropdown-menu p-3 green-back text-white"
+										aria-labelledby="dropdownMenuButton">
+										<p>1.8 oz. This medley treat is an ideal blend of freeze-dried mealworms,
+											grasshoppers & crickets (all natural foods of beardeds). This ensures your
+											dragon will
+											accept and love this treat. Vitamin enriched formula. Complete balanced
+											nutrition.</p>
+									</div>
+								</div>
+								<p class="text-center price">$9</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
+						<div class="card border-0">
+							<img src="https://s7d1.scene7.com/is/image/PETCO/1442007-center-1?$ProductDetail-large$"
+								class="card-img-top pt-2" alt="reptile_food">
+							<div class="card-body">
+								<h5 class="card-title">Fluker's Medley Treat for Aquatic Turtles, 1.5 oz.</h5>
+								<p class="card-text">1.5 oz. This medley treat is an ideal blend ...</p>
+								<div class="dropdown pl-3">
+									<button class="btn green-back dropdown-toggle mb-3 green-back text-white"
+										type="button" id="dropdownMenuButton" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Full description
+									</button>
+									<div class="dropdown-menu p-3 green-back text-white"
+										aria-labelledby="dropdownMenuButton">
+										<p>1.5 oz. This medley treat is an ideal blend of freeze-dried river
+											shrimp, mealworms & crickets (all natural foods of turtles). This ensures
+											your
+											turtle
+											will accept and love this treat. Vitamin enriched formula. For juvenile &
+											adult
+											aquatic turtles.</p>
+									</div>
+								</div>
+								<p class="text-center price">$8</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
+						<div class="card border-0">
+							<img src="https://s7d1.scene7.com/is/image/PETCO/2237167-center-1?$ProductDetail-large$"
+								class="card-img-top pt-2" alt="reptile_food">
+							<div class="card-body">
+								<h5 class="card-title">Fluker's High-Calcium Cricket Diet, 11.5 oz.</h5>
+								<p class="card-text">Designed for gut-loading crickets ...</p>
+								<div class="dropdown pl-3">
+									<button class="btn green-back dropdown-toggle mb-3 green-back text-white"
+										type="button" id="dropdownMenuButton" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Full description
+									</button>
+									<div class="dropdown-menu p-3 green-back text-white"
+										aria-labelledby="dropdownMenuButton">
+										<p>Designed for gut-loading crickets to increase their vitamin/mineral
+											content prior to offering them as prey to your pet. Allows insect-eating
+											pets to
+											benefit
+											from the insect's nutrient-rich gut content.</p>
+									</div>
+								</div>
+								<p class="text-center price">$4</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<h2 class="mb-4 text-center text-cat-rep">
+				Accessories
+			</h2>
+
+			<div class="card-deck card-img-cat">
+				<div class="row">
+					<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
+						<div class="card border-0">
+							<img src="https://petco.scene7.com/is/image/PETCO/2874131-center-1?$ProductDetail-large$"
+								class="card-img-top pt-2" alt="reptile_Accessorie">
+							<div class="card-body">
+								<h5 class="card-title">R&J Enterprises Tiki Hut Tank House, 20.75" L X 12" W X 15" H
+								</h5>
+								<p class="card-text">Stylish waterproof Tank House ... </p>
+								<div class="dropdown pl-3">
+									<button class="btn green-back dropdown-toggle mb-3 green-back text-white"
+										type="button" id="dropdownMenuButton" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Full description
+									</button>
+									<div class="dropdown-menu p-3 green-back text-white"
+										aria-labelledby="dropdownMenuButton">
+										<p>Stylish waterproof Tank House for 10 Gallon Aquariums Perfect for Fish,
+											Turtles,
+											Mice, Hamsters, snakes, reptiles and much more.</p>
+									</div>
+								</div>
+								<p class="text-center price">$22</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
+						<div class="card border-0">
+							<img src="https://petco.scene7.com/is/image/PETCO/2874140-center-1?$ProductDetail-large$"
+								class="card-img-top pt-2" alt="reptile_Accessorie">
+							<div class="card-body">
+								<h5 class="card-title">R&J Enterprises Barn Tank House, 20.75" L X 12" W X 15" H</h5>
+								<p class="card-text">Stylish waterproof Tank House ...</p>
+								<div class="dropdown pl-3">
+									<button class="btn green-back dropdown-toggle mb-3 green-back text-white"
+										type="button" id="dropdownMenuButton" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Full description
+									</button>
+									<div class="dropdown-menu p-3 green-back text-white"
+										aria-labelledby="dropdownMenuButton">
+										<p> Stylish waterproof Tank House cover your pet will enjoy
+											It is waterproof and accommodates lighting and filtration. Turning your
+											boring
+											10 gallon
+											tanks into a house for any pet</p>
+									</div>
+								</div>
+								<p class="text-center price">$22</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
+						<div class="card border-0">
+							<img src="https://s7d1.scene7.com/is/image/PETCO/1022750-center-1?$ProductDetail-large$"
+								class="card-img-top pt-2" alt="reptile_Accessorie">
+							<div class="card-body">
+								<h5 class="card-title">Zoo Med Starter Hermit Crab Kit</h5>
+								<p class="card-text">Includes: Sand, water dish, sponge, food, soil, shell, ...
+								</p>
+								<div class="dropdown pl-3">
+									<button class="btn green-back dropdown-toggle mb-3 green-back text-white"
+										type="button" id="dropdownMenuButton" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Full description
+									</button>
+									<div class="dropdown-menu p-3 green-back text-white"
+										aria-labelledby="dropdownMenuButton">
+										<p> Includes: Sand, water dish, sponge, food, soil, shell,
+											thermometer, hermit crab care guide, salt and drinking water conditioners,
+											and
+											antiseptic
+											hand gel.</p>
+									</div>
+								</div>
+								<p class="text-center price">$19</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
+						<div class="card border-0">
+							<img src="https://s7d1.scene7.com/is/image/PETCO/1397770-center-1?$ProductDetail-large$"
+								class="card-img-top pt-2" alt="reptile_Accessorie">
+							<div class="card-body">
+								<h5 class="card-title">Zoo Med Deluxe Collapsible Snake Hook</h5>
+								<p class="card-text">Up to 26"; Length, Zoo Med Deluxe Collapsible Snake Hook ...</p>
+								<div class="dropdown pl-3">
+									<button class="btn green-back dropdown-toggle mb-3 green-back text-white"
+										type="button" id="dropdownMenuButton" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Full description
+									</button>
+									<div class="dropdown-menu p-3 green-back text-white"
+										aria-labelledby="dropdownMenuButton">
+										<p> Up to 26"; Length, Zoo Med Deluxe Collapsible Snake Hook
+											is adjustable from 7.25";. Ideal for moving small snakes or collecting
+											snakes in
+											the wild. Can be
+											used to move cage furniture in your terrarium. Fits in pocket when
+											collapsed.
+										</p>
+									</div>
+								</div>
+								<p class="text-center price">$4.5</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<h2 class="mb-4 text-center text-cat-rep">
+				Care & healt
+			</h2>
+
+			<div class="card-deck card-img-cat">
+				<div class="row">
+					<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
+						<div class="card border-0">
+							<img src="https://s7d1.scene7.com/is/image/PETCO/2119013-center-1?$ProductDetail-large$"
+								class="card-img-top pt-2" alt="reptile_care">
+							<div class="card-body">
+								<h5 class="card-title">Repashy Super Foods Calcium Plus Supplement, 3 oz.</h5>
+								<p class="card-text">"all-in-one" insect dusting powder that provides ...</p>
+								<div class="dropdown pl-3">
+									<button class="btn green-back dropdown-toggle mb-3 green-back text-white"
+										type="button" id="dropdownMenuButton" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Full description
+									</button>
+									<div class="dropdown-menu p-3 green-back text-white"
+										aria-labelledby="dropdownMenuButton">
+										<p>"all-in-one" insect dusting powder that provides essential
+											vitamins, minerals, & trace elements. Both retinol & carotenoids as sources
+											of
+											Vitamin A.
+											Increases the nutritional value of insects as they are fed to all
+											insectivores.
+										</p>
+									</div>
+								</div>
+								<p class="text-center price">$12</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
+						<div class="card border-0">
+							<img src="https://s7d1.scene7.com/is/image/PETCO/1440349-center-1?$ProductDetail-large$"
+								class="card-img-top pt-2" alt="reptile_care">
+							<div class="card-body">
+								<h5 class="card-title">Zoo Med Repti Calcium with D3 Reptile Supplement</h5>
+								<p class="card-text">3 oz. Repti Calcium is an ultra fine Precipitated ...</p>
+								<div class="dropdown pl-3">
+									<button class="btn green-back dropdown-toggle mb-3 green-back text-white"
+										type="button" id="dropdownMenuButton" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Full description
+									</button>
+									<div class="dropdown-menu p-3 green-back text-white"
+										aria-labelledby="dropdownMenuButton">
+										<p>3 oz. Repti Calcium is an ultra fine Precipitated Calcium Carbonate
+											Supplement
+											with Vitamin D3. It is a phosphorus-free calcium
+											supplement for reptiles
+											and amphibians.
+										</p>
+									</div>
+								</div>
+								<p class="text-center price">$6</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
+						<div class="card border-0">
+							<img src="https://s7d1.scene7.com/is/image/PETCO/2465944-center-1?$ProductDetail-large$"
+								class="card-img-top pt-2" alt="reptile_care">
+							<div class="card-body">
+								<h5 class="card-title">Nature Zone Turtle & Tortoise Shell Saver, 2oz</h5>
+								<p class="card-text">Nature Zone Tortoise & Turtle Shell Saver is a rich, deep-
+									moisturizing ...</p>
+								<div class="dropdown pl-3">
+									<button class="btn green-back dropdown-toggle mb-3 green-back text-white"
+										type="button" id="dropdownMenuButton" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Full description
+									</button>
+									<div class="dropdown-menu p-3 green-back text-white"
+										aria-labelledby="dropdownMenuButton">
+										<p>Nature Zone Tortoise & Turtle Shell Saver is a rich, deep-
+											moisturizingtreatment for chelonian shells. Regular use will help maintain
+											strong, yet
+											flexible
+											shells on your tortoise or turtle. Shells instantly absorb its rich, creamy
+											formula
+											without any sticky, greasy residue.
+										</p>
+									</div>
+								</div>
+								<p class="text-center price">$4</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-3 col-lg-3 col-sm-6">
+						<div class="card border-0">
+							<img src="https://s7d1.scene7.com/is/image/PETCO/93475-center-1?$ProductDetail-large$"
+								class="card-img-top pt-2" alt="reptile_care">
+							<div class="card-body">
+								<h5 class="card-title">Tetra TetraFauna Reptocal Reptile Supplement</h5>
+								<p class="card-text">2.12 oz. Easy-to-use, scientifically-formulated calcium ...</p>
+								<div class="dropdown pl-3">
+									<button class="btn green-back dropdown-toggle mb-3 green-back text-white"
+										type="button" id="dropdownMenuButton" data-toggle="dropdown"
+										aria-haspopup="true" aria-expanded="false">
+										Full description
+									</button>
+									<div class="dropdown-menu p-3 green-back text-white"
+										aria-labelledby="dropdownMenuButton">
+										<p>2.12 oz. Easy-to-use, scientifically-formulated calcium supplement for
+											skeletal
+											growth and the prevention of osteoporosis. Safe for daily use.
+										</p>
+									</div>
+								</div>
+								<p class="text-center price">$3</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<footer id="footer-cat">
+
+			<div class="text-white mt-5 green-back opacity-menu">
+
+				<div class="row mx-auto">
+
+					<div class="col-8 pt-3">
 						<div class="card mb-3 green-back border-0">
 							<div class="row no-gutters">
-								<div class="col-md-12 my-auto">
-									<img src="assets/img/logoplein_orange.png" class="card-img img-fluid" alt="Logo">
+								<div class="w-25">
+									<img src="assets/img/logoplein_orange.png" class="card-img" alt="Logo">
 								</div>
-
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 pt-3">
-						<p class="text-right mr-4"><a href="#category1" class="text-white">Dogs</a></p>
-						<p class="text-right mr-4"><a href="#category2" class="text-white">Cats</a></p>
-						<p class="text-right mr-4"><a href="#category3" class="text-white">Rodents</a></p>
-						<p class="text-right mr-4"><a href="#category4" class="text-white">Fishes</a></p>
-						<p class="text-right mr-4"><a href="#category5" class="text-white">Reptiles</a></p>
-					</div>
+
+					<div class="col-4 pt-3 text-right">
+                        <p class="ml-4"><a href="index.html" class="text-white">Home</a></p>
+                        <p class="ml-4"><a href="index.html#about-us" class="text-white">About us</a></p>
+                        <p class="ml-4"><a href="index.html#top-selling" class="text-white">Top Selling</a></p>
+                        <p class="ml-4"><a href="contact.html" class="text-white">Contact</a></p>
+                    </div>
+
 				</div>
+
 			</div>
 
 		</footer>
 
+	</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
