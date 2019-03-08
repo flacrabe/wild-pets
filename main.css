@@ -155,3 +155,31 @@ h3{
 .link-cat:hover {
 	color: #346A90 !important;
 }
+
+/* CAT-FISHES */
+
+.text-fish {
+	color: #346A90;
+	text-shadow: 1px 2px 2px black;
+	height: 1em;
+	font-size: 5em;
+	padding: 0.8em 0 1.4em 0;
+}
+
+
+.blue-back-menu {
+	background-color: #346A90;
+	opacity: 0.8;
+}
+
+.card-title-fish {
+	font-size: calc(1rem + 4vw);
+	font-weight: bold;
+	color: whitek;
+	text-shadow: 2px 2px 2px black;
+	opacity: 0.8;
+	
+}
+.link-fish:hover {
+	color: #F48D33 !important;
+}
