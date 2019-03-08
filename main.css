@@ -24,7 +24,7 @@
 /* fonts */
 
 .white-font {
-	color: white;
+	color: white !important;
 }
 
 .bold-font {
@@ -53,8 +53,8 @@
     font-family: 'Love Ya Like A Sister', cursive;
 }
 
-.nav-link:hover {
-	color: #A5CE00;
+.link-home:hover {
+	color: #A5CE00 !important;
 }
 
 .titre-color-blue {
@@ -65,3 +65,93 @@
 	font-size: 1.3em;
 }
 
+.promo{
+	font-size: 2.500em;
+	color: black;
+}
+
+h3{
+	color: black;
+
+	font-size: 3.125em;
+}
+
+/* margin top entre categories */
+
+.margin{
+	margin-top: 250px;
+}
+
+/* margin entre image et nom categorie */
+
+.margin-cate{
+	margin-top: 25px;
+}
+
+/* effet grossissant categorie */
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+
+/* CAT-CATS */
+
+.link-cat:hover {
+	color: #346A90;
+}
+
+.text-cat {
+	color: #F48D33;
+	text-shadow: 1px 2px 2px black;
+	height: 1em;
+	font-size: 5em;
+	padding: 0.8em 0 1.4em 0;
+}
+.text-btndrop {
+	color: white;
+}
+
+.text-btndrop:hover {
+	color:#346A90;
+}
+
+.blue-back-menu {
+	background-color: #346A90;
+	opacity: 0.8;
+}
+
+.card-img-cat {
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#footer-cat {
+	margin-top: 8em;
+	line-height: 2;
+	font-size: 1.5em;
+}
+
+.card-title-cat {
+	font-size: calc(1rem + 4vw);
+	font-weight: bold;
+	color: whitek;
+	text-shadow: 2px 2px 2px black;
+	opacity: 0.8;
+	
+}
+
+.card-text-cat {
+	font-size: calc(1rem + 3vw);;
+	font-weight: bold;
+	color: white;
+	text-shadow: 3px 3px 2px black;
+	margin-top: 2.5em;
+	opacity: 0.8;
+}
+
+.price {
+	font-weight: bold;
+}
+
+.link-cat:hover {
+	color: #346A90 !important;
+}
