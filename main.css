@@ -187,3 +187,32 @@ h3{
 .link-fish:hover {
 	color: #F48D33 !important;
 }
+
+/* CAT-REPTILES */
+
+.text-cat-rep {
+	color:  #A5CE00;
+	text-shadow: 1px 2px 2px black;
+	height: 1em;
+	font-size: 5em;
+	padding: 0.8em 0 1.4em 0;
+}
+
+
+.blue-back-menu {
+	color: #F48D33;
+	opacity: 0.8;
+}
+
+.card-title-rep {
+	padding-top: 18%;
+	font-size: calc(1rem + 4vw);
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	opacity: 0.8;
+	
+}
+.link-cat-rep:hover {
+	color: #F48D33 !important;
+}
