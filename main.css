@@ -138,7 +138,7 @@ h3{
 	color: white;
 	text-shadow: 2px 2px 2px black;
 	opacity: 0.8;
-	
+
 }
 
 
@@ -172,7 +172,7 @@ h3{
 	color: whitek;
 	text-shadow: 2px 2px 2px black;
 	opacity: 0.8;
-	
+
 }
 .link-fish:hover {
 	color: #F48D33 !important;
@@ -201,8 +201,28 @@ h3{
 	color: white;
 	text-shadow: 2px 2px 2px black;
 	opacity: 0.8;
-	
+
 }
 .link-cat-rep:hover {
 	color: #F48D33 !important;
+}
+
+
+
+/* CAT DOG*/
+.text-dog {
+	color: #A5CE00;
+	text-shadow: 1px 2px 2px black;
+	height: 1em;
+	font-size: 5em;
+	padding: 0.8em 0 1.4em 0;
+}
+
+#footer-dog {
+	margin-top: 8em;
+}
+
+.green-back-menu {
+	background-color: #A5CE00;
+	opacity: 0.8;
 }
