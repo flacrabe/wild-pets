@@ -178,6 +178,46 @@ h3{
 	color: #F48D33 !important;
 }
 
+
+/* CAT-RODENTS */
+
+.text-rodents {
+	color: #E6B797;
+	text-shadow: 1px 2px 2px black;
+	height: 1em;
+	font-size: 5em;
+	padding: 0.8em 0 1.4em 0;
+}
+
+
+.brown-back-menu {
+	background-color: #E6B797;
+	font-weight: bold;
+	}
+
+.text-btndrop-rodents {
+	color: white;
+}
+
+.text-btndrop-rodents:hover {
+	color:#BC7D3A;
+}
+
+.card-title-rodents {
+	padding-top: 18%;
+	font-size: calc(1rem + 4vw);
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	opacity: 0.8;
+
+}
+.link-cat-rodents:hover {
+	color: #BC7D3A !important;
+
+
+
+
 /* CAT-REPTILES */
 
 .text-cat-rep {
