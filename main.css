@@ -266,3 +266,15 @@ h3{
 	background-color: #A5CE00;
 	opacity: 0.8;
 }
+/*parallax*/
+#about-us{
+	background: url(assets/img/about_us2.jpg);
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text-black {
+opacity:0.8;
+}
