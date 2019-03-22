@@ -251,7 +251,7 @@ h3{
 
 /* CAT DOG*/
 .text-dog {
-	color: #A5CE00;
+	color: #BC7D3A;
 	text-shadow: 1px 2px 2px black;
 	height: 1em;
 	font-size: 5em;
@@ -266,6 +266,14 @@ h3{
 	background-color: #A5CE00;
 	opacity: 0.8;
 }
+
+
+.dogSkate{
+	width: 20%;
+	
+}
+
+
 /*parallax*/
 #about-us{
 	background: url(assets/img/about_us2.jpg);
@@ -282,3 +290,7 @@ opacity:0.8;
 .card-title{
 	font-size: 2em;
 }
+	opacity: 0.8;
+}
+
+
