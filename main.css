@@ -144,6 +144,7 @@ h3{
 
 .price {
 	font-weight: bold;
+	font-size: 1.8em;
 }
 
 .link-cat:hover {
@@ -178,6 +179,45 @@ h3{
 	color: #F48D33 !important;
 }
 
+
+/* CAT-RODENTS */
+
+.text-rodents {
+	color: #E6B797;
+	text-shadow: 1px 2px 2px black;
+	height: 1em;
+	font-size: 5em;
+	padding: 0.8em 0 1.4em 0;
+}
+
+
+.brown-back-menu {
+	background-color: #E6B797;
+	font-weight: bold;
+	}
+
+.text-btndrop-rodents {
+	color: white;
+}
+
+.text-btndrop-rodents:hover {
+	color:#BC7D3A;
+}
+
+.card-title-rodents {
+	padding-top: 18%;
+	font-size: calc(1rem + 4vw);
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	opacity: 0.8;
+
+}
+.link-cat-rodents:hover {
+	color: #BC7D3A !important;
+}
+
+
 /* CAT-REPTILES */
 
 .text-cat-rep {
@@ -211,7 +251,7 @@ h3{
 
 /* CAT DOG*/
 .text-dog {
-	color: #A5CE00;
+	color: #BC7D3A;
 	text-shadow: 1px 2px 2px black;
 	height: 1em;
 	font-size: 5em;
@@ -226,3 +266,90 @@ h3{
 	background-color: #A5CE00;
 	opacity: 0.8;
 }
+
+
+.dogSkate{
+	width: 20%;
+	
+}
+
+
+/*parallax*/
+#about-us{
+	background: url(assets/img/about_us2.jpg);
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text-black {
+opacity:0.8;
+}
+
+.card-title{
+	font-size: 2em;
+
+	opacity: 0.8;
+}
+
+
+
+
+
+
+/*animation fishes*/
+.imgalgues {
+	position: absolute;
+	z-index: 1;
+
+}
+
+.imgpoisson {
+	position: absolute;
+	z-index: 10;
+
+}
+
+.imgbulles {
+	position: absolute;
+	z-index: 133;
+	width: 40%;
+}
+
+/* animation chat */
+
+.dim {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+#myCat {
+    z-index: 50;
+    width: 100%;  
+}
+
+.card {
+    border: none;
+}
+
+
+.container {
+    overflow: hidden;   
+}
+
+/* animation lapin */
+
+.tail {
+    z-index: 75;
+}
+
+.rabbit {
+    z-index: 45;
+}
+
+.lapin {
+    position : absolute
+}
+
