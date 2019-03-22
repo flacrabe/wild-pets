@@ -144,6 +144,7 @@ h3{
 
 .price {
 	font-weight: bold;
+	font-size: 1.8em;
 }
 
 .link-cat:hover {
@@ -276,4 +277,8 @@ h3{
 }
 .text-black {
 opacity:0.8;
+}
+
+.card-title{
+	font-size: 2em;
 }
