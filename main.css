@@ -289,8 +289,67 @@ opacity:0.8;
 
 .card-title{
 	font-size: 2em;
-}
+
 	opacity: 0.8;
 }
 
+
+
+
+
+
+/*animation fishes*/
+.imgalgues {
+	position: absolute;
+	z-index: 1;
+
+}
+
+.imgpoisson {
+	position: absolute;
+	z-index: 10;
+
+}
+
+.imgbulles {
+	position: absolute;
+	z-index: 133;
+	width: 40%;
+}
+
+/* animation chat */
+
+.dim {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+#myCat {
+    z-index: 50;
+    width: 100%;  
+}
+
+.card {
+    border: none;
+}
+
+
+.container {
+    overflow: hidden;   
+}
+
+/* animation lapin */
+
+.tail {
+    z-index: 75;
+}
+
+.rabbit {
+    z-index: 45;
+}
+
+.lapin {
+    position : absolute
+}
 
